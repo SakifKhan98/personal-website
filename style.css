@@ -57,11 +57,6 @@ section {
     
 }
 
-/* .biography-area{
-    background-image: url("images/dream-bg.png");
-    background-repeat: no-repeat;
-    background-position: right;
-} */
 
 .single-experience {
     box-shadow: 10px 10px 40px gray;
@@ -99,12 +94,12 @@ footer p {
     /* margin: auto; */
   }
   
-  /* Clear floats after image containers */
+  /* Clear floats after image containers
   .row::after {
     content: "";
     clear: both;
     display: table;
-  }
+  } */
 
 #title-latest-work {
     text-align: center;
@@ -116,7 +111,7 @@ footer p {
 }
 
 .my-latest-work {
-        padding-top: 50px;
+        padding: 100px 30px;
         background-image: url("images/latest-work-bg.png");
         background-repeat: no-repeat;
         background-size: cover;
