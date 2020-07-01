@@ -88,33 +88,25 @@ footer p {
 }
 .column {
     float: left;
-    width: 23.33%;
-    padding: 15px;
+    width: 28.33%;
+    padding: 5px;
     display: block;
-    /* margin: auto; */
+
   }
-  
-  /* Clear floats after image containers
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  } */
 
 #title-latest-work {
     text-align: center;
 }
 
-.row {
-    display: flex;
-    justify-content: center;
-}
 
 .my-latest-work {
-        padding: 100px 30px;
+        padding-top: 100px;
         background-image: url("images/latest-work-bg.png");
         background-repeat: no-repeat;
         background-size: cover;
+        justify-content: center;
+        padding-left: 170px;
+
 }
 
 .client-area {
